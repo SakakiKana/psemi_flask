@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link href="/static/css/style.css" rel="stylesheet">
+</head>
+<body>
+<ul>
+    {% for x in lis %}
+    <li>{{ x }}</li>
+    {% endfor %}
+</ul>
+<hr>
+
+<p>{{"nickname: %s age: %s address: %s" %(dictionary["nickname"],dictionary["age"],dictionary["address"]) }}</p>
+<hr>
+{% if flag %}
+<button type="button" onclick="alert('True')">click</button>
+{% else %}
+<button type="button" onclick="alert('False')">click</button>
+{% endif %}
+<hr>
+</body>
+</html>

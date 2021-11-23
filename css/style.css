@@ -1,0 +1,31 @@
+/*style.css*/
+.hello {
+background: #0fa;
+}
+h1 {
+color: red;
+}
+li {
+font-size: 24px;
+font-weight: bold;
+color: #4682b4;
+}
+p{
+text-align: center;
+font-family: cursive;
+color: #f0f8ff;
+background: #191970;
+border: 10px double #f0f8ff;
+}
+button {
+  font-size: 24px;
+  background-color: #191970;
+  color: #f0f8ff;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 0;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: #064fda;
+}
